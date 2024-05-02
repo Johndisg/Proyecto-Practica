@@ -209,3 +209,112 @@ body {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
 }
+
+.seccion3{
+    background-color: #000000;
+    color: #fff;
+    transform: translateY(340px);
+}
+
+.container.benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.benefits-section {
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    overflow: hidden;
+    padding: 40px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.benefits-section::before,
+.benefits-section::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+}
+
+.benefits-section::before {
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    height: 1px;
+}
+
+.benefits-section::after {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 90%;
+}
+
+.benefits .benefits-section:nth-child(n+4) {
+    border-bottom: none;
+}
+
+.custom-benefits::after,
+.custom-benefits::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits2::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits3::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits4::after{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logos li {
+    margin-bottom: 10px;
+}
+
+.logos img {
+    width: 80px;
+    height: auto;
+}
