@@ -251,7 +251,11 @@ h1 {
     overflow: hidden;
     padding: 40px;
     padding-top: 0;
-    padding-left: 0;
+    padding-left: 22px;
+}
+
+.benefits-section h2{
+    margin-bottom: 35px;
 }
 
 .benefits-section::before,
@@ -307,14 +311,19 @@ h1 {
 .logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;    
+    padding-left: 0;
 }
 
-.logos li {
-    margin-bottom: 10px;
+.logos li {    
+    margin-right: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px; 
+    
 }
 
 .logos img {
-    width: 80px;
-    height: auto;
+    width: 135px;
+    height: 45;
 }
