@@ -26,38 +26,75 @@ h1 {
 }
 
 .benefits {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    
 }
 
 .benefits-section {
-    width: 30%;
-    margin-bottom: 20px;
-    padding: 0;
+    position: relative;
     background-color: transparent;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
+    box-shadow: none;
+    border: none;
+    overflow: hidden;
+    padding: 40px;
+    padding-top: 0;
+    padding-left: 0;
 }
 
-.benefits-section h2 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 15px;
+.benefits-section::before,
+.benefits-section::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
 }
 
-.benefits-section p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    /* Remove default paragraph margins */
+.benefits-section::before {
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    height: 1px;
+}
+
+.benefits-section::after {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 90%;
+}
+
+.benefits .benefits-section:nth-child(n+4) {
+    border-bottom: none;
+}
+
+.custom-benefits::after,
+.custom-benefits::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits2::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits3::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits4::after{
+    content: '';
+    position: absolute;
+    background-color: #000000;
 }
 
 .logos {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
