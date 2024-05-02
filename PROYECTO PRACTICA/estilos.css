@@ -1,19 +1,17 @@
-.navbar-brand img{
+.navbar-brand img {
     margin-left: 220px;
 }
 
 .btn-warning {
     margin-right: 750px;
     font-weight: 600;
-
 }
 
 .linea-amarilla {
-    height: 1px; 
-    background-color: rgb(255, 225, 0); 
+    height: 1px;
+    background-color: rgb(255, 225, 0);
     width: 100%;
 }
-
 
 body {
     background-image: url('Imagenes/Foto1.jpg');
@@ -21,41 +19,49 @@ body {
     background-repeat: no-repeat;
 }
 
-.card-header{
+.card-header {
     font-weight: 700;
-
 }
 
 #form1 {
-    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+    max-width: 300px;
+    /* Ajusta el ancho máximo según sea necesario */
     margin-right: 180px;
 }
 
+
 /* Reducir el tamaño de los elementos del formulario */
+
 #form1 .form-control {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de los campos de entrada */
+    font-size: 14px;
+    /* Ajusta el tamaño de la fuente de los campos de entrada */
 }
 
 #form1 .form-select {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de las selecciones */
+    font-size: 14px;
+    /* Ajusta el tamaño de la fuente de las selecciones */
 }
 
 #form1 .form-check-label {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de las etiquetas de las casillas de verificación */
+    font-size: 14px;
+    /* Ajusta el tamaño de la fuente de las etiquetas de las casillas de verificación */
 }
 
 #form1 {
-    max-width: 300px; /* Ancho máximo del formulario */
-    height: 450px; /* Altura del formulario */
+    max-width: 300px;
+    /* Ancho máximo del formulario */
+    height: 450px;
+    /* Altura del formulario */
 }
 
-.button2{
+.button2 {
     justify-content: center;
     margin-left: 80px;
 }
 
 .contenido1 p {
-    font-size: 50px; /* Ajusta el tamaño según tus preferencias */
+    font-size: 50px;
+    /* Ajusta el tamaño según tus preferencias */
     color: white;
     font-weight: 600;
     margin-top: -410px;
@@ -63,28 +69,25 @@ body {
     line-height: 1.1;
 }
 
-.contenido2{
+.contenido2 {
     color: white;
     margin-left: 240px;
     font-size: small;
 }
 
-.titulo1{
+.titulo1 {
     font-size: 28px;
     font-weight: 700;
     transform: translateY(320px);
-
 }
 
-.sesion2 p{
+.sesion2 p {
     transform: translateY(325px);
     font-size: 13px;
     margin-left: 190px;
 }
 
-
-
-.form2{
+.form2 {
     transform: translateY(340px);
     background-color: rgb(219, 219, 219);
     padding: 20px;
@@ -93,75 +96,86 @@ body {
     gap: 10px;
 }
 
-.nivelEdu{
+.nivelEdu {
     margin-left: 130px;
     font-weight: 700;
     margin-right: 10px;
 }
 
-
-#nivelEducativo{
+#nivelEducativo {
     border-radius: 10px;
 }
-
 
 .card-columns {
     column-count: 3;
     transform: translateY(9px);
     column-width: 18rem;
     column-gap: 1rem;
-  }
+}
 
-  .cartas{
+.cartas {
     background-color: darkgray;
     transform: translateY(340px);
     display: flex;
     justify-content: center;
     height: 400px;
-  }
+    position: relative;
+}
 
-  .cartas2{
+.cartas2 {
     background-color: darkgray;
     transform: translateY(340px);
     display: flex;
     justify-content: center;
     height: 400px;
-  }
+    position: relative;
+}
 
-  .card-text{
+.card-text {
     font-size: small;
-  }
+}
 
-
-
-.titulo2{
+.titulo2 {
     font-size: 28px;
     font-weight: 700;
     transform: translateY(340px);
     background-color: black;
 }
 
-.sesion4{
+.sesion4 {
     transform: translateY(590px);
     display: flex;
     justify-content: space-around;
     width: min-content;
     margin-left: 150px;
+    position: relative;
+    z-index: 1;
 }
 
-.sesion4 > div {
+.sesion4>div {
     text-align: center;
-    width: 200px; /* Ajusta el ancho según sea necesario */
-    margin: 0 40px; /* Agrega espacio horizontal entre cada elemento */
+    width: 200px;
+    /* Ajusta el ancho según sea necesario */
+    margin: 0 40px;
+    /* Agrega espacio horizontal entre cada elemento */
 }
 
+.seccion-negra {
+    background-color: black;
+    padding: 50px 0;
+    position: relative;
+    z-index: 2;
+    /* Ajusta el espaciado según sea necesario */
+}
 
+.container {
+    padding: 0 15px;
+    /* Ajusta el espaciado del contenedor */
+}
 
-
-
-
-
-
-
-
-
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Color de fondo transparente */
+    border: none;
+    /* Quita el borde */
+}
